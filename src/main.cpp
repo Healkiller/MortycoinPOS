@@ -1006,7 +1006,7 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 
             if(nBestHeight == 0)
             {
-            nSubsidy = 380000 * COIN; //premine for swap
+            nSubsidy = 38000 * COIN; //premine for swap
             }
 
             else if(nBestHeight <= 10000)
